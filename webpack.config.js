@@ -6,6 +6,7 @@ const config = {
   mode: 'development',
   entry: {
     index: './src/index.js',
+    getWeather: './src/getWeather.js'
   },
   output: {
     filename: '[name].bundle.js',
