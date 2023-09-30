@@ -1,5 +1,5 @@
 /* eslint-disable import/no-cycle */
-import { API_KEY, img } from "./index";
+import { API_KEY } from "./index";
 
 
 // eslint-disable-next-line consistent-return
