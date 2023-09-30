@@ -7,6 +7,6 @@ export default async function getTemp() {
     const weatherIcon = await conditionDetails.icon;
     const tempText = document.querySelector(".temp");
     const weather = document.querySelector(".weather-icon");
-    tempText.textContent = temp;
+    tempText.textContent = `${temp}℃`;
     weather.src = weatherIcon;
 }

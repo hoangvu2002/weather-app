@@ -1,11 +1,12 @@
 /* eslint-disable import/no-cycle */
 import { API_KEY } from "./index";
 
+const input = document.querySelector('input');
 
 // eslint-disable-next-line consistent-return
 export default async function getWeather() {
     try {
-        const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=Hanoi&aqi=no`, {
+        const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${input.value}&aqi=no`, {
             mode: 'cors'
         });
 
