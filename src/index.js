@@ -4,6 +4,7 @@ import getPlaceDetails from "./getPlaceDetails";
 import getTime from "./getTime";
 import getTemp from "./getTemp";
 import getGif from "./getGif";
+import getCondition from "./getCondition";
 
 export const API_KEY =   '3fe84c7614114cd4a5164613232209';
 export const img = document.querySelector(".weather-icon");
@@ -16,4 +17,5 @@ button.addEventListener("click" , () => {
     getTime();
     getTemp();
     getGif();
+    getCondition();
 });

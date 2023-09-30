@@ -9,7 +9,8 @@ const config = {
     getWeather: './src/getWeather.js',
     getTime: './src/getTime.js',
     getTemp: './src/getTemp.js',
-    getGif: './src/getGif.js'
+    getGif: './src/getGif.js',
+    getCondition: './src/getCondition.js'
   },
   output: {
     filename: '[name].bundle.js',
