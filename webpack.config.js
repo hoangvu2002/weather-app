@@ -7,7 +7,9 @@ const config = {
   entry: {
     index: './src/index.js',
     getWeather: './src/getWeather.js',
-    getTime: './src/getTime.js'
+    getTime: './src/getTime.js',
+    getTemp: './src/getTemp.js',
+    getGif: './src/getGif.js'
   },
   output: {
     filename: '[name].bundle.js',
